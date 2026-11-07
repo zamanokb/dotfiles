@@ -1,0 +1,15 @@
+[user]
+    name = Zaman
+    email = khan786.bk54@gmail.com
+
+[core]
+    pager = cat
+
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    st = status -sb
+    co = checkout
+    br = branch
+
+[init]
+    defaultBranch = main
